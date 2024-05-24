@@ -1,4 +1,84 @@
-body{
-    background-color: darkslategray;
-    font-family: sans-serif;
+@font-face {
+    font-family: avenueX;
+    src: url(fonts/AvenueX-Regular.otf);
+}
+@font-face {
+    font-family: kasse;
+    src: url(fonts/KasseFLF.ttf);
+}
+@font-face {
+    font-family: kasseB;
+    src: url(fonts/KasseFLF-Bold.ttf);
+}
+@font-face {
+    font-family: kasseU;
+    src: url(fonts/KasseUltraFLF.ttf);
+}
+@font-face {
+    font-family: staravenue;
+    src: url(fonts/staravenue.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: avenueX;
+    color: rgb(14, 35, 37);
+}
+
+html{
+    background-color: rgba(87, 108, 108, 0.68);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    color: aliceblue;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    text-decoration-line: none;
+    color: aliceblue;
+}
+
+.nav a:hover{
+    background-color: rgba(19, 54, 54, 0.728);
+    border-radius: 25%;
+}
+
+.main_nav{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.587);
+}
+
+.main_nav li{
+    padding: 0 5%;
+}
+
+.mainH{
+    background-color: rgba(0, 0, 0, 0.532);
+    background-image: url(images/Chip-Chrome.webp);
+    background-blend-mode: multiply;
+    background-size: contain;
+    border-radius: 2%;
+    padding-bottom: 30px;
+}
+
+.titleN{
+    color: rgb(215, 231, 226);
+    text-align: center;
+    font-family: kasseB;
+    font-size: 4em;
+    margin: 0%;
 }
