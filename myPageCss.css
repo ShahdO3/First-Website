@@ -34,6 +34,10 @@ html, body{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 .nav ul{
     margin: 0;
 }
@@ -51,7 +55,7 @@ html, body{
 }
 
 .nav a:hover{
-    background-color: rgba(19, 54, 54, 0.728);
+    background-color: rgba(152, 159, 159, 0.728);
     border-radius: 25%;
 }
 
@@ -77,8 +81,149 @@ html, body{
 
 .titleN{
     color: rgb(215, 231, 226);
-    text-align: center;
     font-family: kasseB;
-    font-size: 4em;
     margin: 0%;
+}
+
+.head{
+    text-align: center;
+    font-size: 4em;
+}
+
+.container-sec{
+    margin: 1em;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.sec-header{
+    font-family: kasseU;
+    font-weight: 10;
+    font-size: 2em;
+    text-align: center;
+}
+
+.aboutIm{
+    border-radius: 50%;
+    float: left;
+    margin: 7px;
+    width: 200px;
+    height: 200px;
+}
+
+.mainF{
+    background-color: rgb(16, 50, 39);
+    padding: .5em;
+}
+
+.mainF-container{
+    display: flex;
+    align-items: center;
+}
+
+.mainF-container li{
+    padding: 0 .5em;
+}
+
+.mainF-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.mainF-container img{
+    width: 30px;
+}
+
+.btn{
+    cursor: pointer;
+    border-radius: 15%;
+    padding: .7em;
+    margin: 20pt;
+    text-align: center;
+    vertical-align: middle;
+}
+.btn:hover{
+    background-color: rgba(161, 163, 162, 0.32);
+}
+
+.btnH{
+    border-color: black;
+    background-color: rgba(7, 59, 43, 0.734);
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btnH:hover{
+    background-color: rgba(7, 59, 43, 0.32);
+}
+
+.btnH a{
+    color: white;
+}
+
+.btnPlay{
+    display: block;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tourRow{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+    text-align: center;
+}
+
+.shopItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shopItem{
+    margin: 30px;
+}
+
+.shopItemTitle{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(8, 19, 20);
+    margin-bottom: 15px;
+}
+
+.shopItemImg{
+    height: 250px;
+    width: 250px;
+}
+
+.shopItemDet{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shopItemPrice{
+    flex-grow: 1;
+    color: rgb(8, 19, 20);
+}
+
+.shopItemBtn{
+
 }
