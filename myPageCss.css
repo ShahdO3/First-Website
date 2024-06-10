@@ -224,6 +224,29 @@ a{
     color: rgb(8, 19, 20);
 }
 
-.shopItemBtn{
+.cartH{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(8, 19, 20);
+}
 
+.cartCol{
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cartIt{
+    width: 45%;
+}
+.cartPr{
+    width: 20%;
+}
+.cartQu{
+    width: 35%;
 }
