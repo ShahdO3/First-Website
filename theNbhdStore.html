@@ -3,6 +3,7 @@
     <head>
         <title>The Neighborhood | Store</title>
         <link rel="stylesheet" href="myPageCss.css"> 
+        <script src="store.js" async></script>
     </head>
     <body>
         <header class="mainH">
@@ -92,26 +93,28 @@
                 <span class="cartPr cartH cartCol">PRICE</span>
                 <span class="cartQu cartH cartCol">QUANTITY</span>
             </div>
-            <div class="cart-row">
-                <div class="cartIt cartCol">
-                    <img src="images/NBHD-SCULPTURE-TOTE_750x.png" width="100">
-                    <span>Sculpture Tote</span>
-                </div>
-                <span class="cartPr cartCol">$20</span>
-                <div class="cartQu cartCol">
-                    <input type="number" value="1">
-                    <button role="button">REMOVE</button>
+            <div class="cartIts">
+                <div class="cart-row">
+                    <div class="cartIt cartCol">
+                        <img class="cartIm" src="images/NBHD-SCULPTURE-TOTE_750x.png" width="100">
+                        <span class="cartTi">Sculpture Tote</span>
+                    </div>
+                    <span class="cartPr cartCol">$20</span>
+                    <div class="cartQu cartCol">
+                        <input class="cartInput" type="number" value="1">
+                        <button class="btn btnDanger cartBtn" role="button">REMOVE</button>
+                    </div>
                 </div>
             </div>
-            <hr>
-            <div>
-                <strong>TOTAL</strong>
-                <span>$20</span>
+            
+
+
+            <div class="cartTotal">
+                <strong class="cartToTitle">TOTAL</strong>
+                <span class="cartToPrice">$20</span>
             </div>
 
-            <div>
-                <button role="button">PURCHASE</button>
-            </div>
+            <button class="btn btnPur" role="button">PURCHASE</button>
 
         </section>
 
